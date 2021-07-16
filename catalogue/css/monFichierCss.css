@@ -1,0 +1,19 @@
+/* MON CODE ICI A L'INTERIEUR */ 
+.espaceDecompte{
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  text-align: right;
+  color: black;
+  }
+
+  .monText{
+    padding-top:15px;
+  }
+
+  .caseDesNombre{
+    border-radius: 6px 6px 6px 6px;
+    border: solid;
+    text-align: center;
+    height: 50px;
+    background: transparent;
+  }

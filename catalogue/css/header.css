@@ -1,0 +1,43 @@
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+    background:#fff;
+    height: 150px;
+}
+ 
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+ 
+header .logo {
+    margin-top: 28px;
+	color:#050505;
+	float:left;
+}
+ 
+header nav {
+	float:right;
+	line-height:200px;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:#050505;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+    background:#003399;
+    color: red;
+	border-radius:50px;
+}
